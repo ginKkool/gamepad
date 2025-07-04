@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+.game-title {
+  padding-top: 50px;
+}
+
+.game-detail {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 50px;
+}
+
+.game-title h1 {
+  font-size: 100px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.game-detail img {
+  width: "100%";
+  maxwidth: "600px";
+}
+
+.game-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+
+.game-info p {
+  font-family: exo;
+  color: #ff4655;
+}
+enres-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-top: 5px;
+  color: whitesmoke;
+  font-family: Exo;
+}
+
+.genre-badge {
+  padding: 4px 8px;
+  font-size: 0.9rem;
+}
+
+.game-description p {
+  padding-top: 15px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 17px;
+  line-height: normal;
+  text-align: justify;
+  margin: 0 auto;
+  width: 776px;
+}
+
+.carousel-container {
+  margin: 20px;
+}
+
+.carousel {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+  padding: 10px 0;
+}
+
+.carousel img {
+  height: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+button {
+  margin-top: 30px;
+  margin-left: 124px;
+  width: 776px;
+  height: 50px;
+  font-size: 20px;
+  border: 1 solide #202023;
+  border-color: #ff4655;
+  background-color: #202023;
+  color: rgb(186, 184, 184);
+}
