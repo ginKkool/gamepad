@@ -32,7 +32,8 @@
   font-family: exo;
   color: #ff4655;
 }
-enres-list {
+
+.genres-list {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
