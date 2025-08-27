@@ -101,37 +101,7 @@ h3 {
   padding-top: 10px;
 }
 
-.genres-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  padding-top: 5px;
-  color: whitesmoke;
-  font-family: Exo;
-}
 
-.genre-badge {
-  padding: 4px 8px;
-  font-size: 0.9rem;
-}
-
-.carousel-container {
-  margin: 20px;
-}
-
-.carousel {
-  display: flex;
-  overflow-x: auto;
-  gap: 10px;
-  padding: 10px 0;
-}
-
-.carousel img {
-  height: 100%;
-  border-radius: 8px;
-  object-fit: cover;
-  flex-shrink: 0;
-}
 
 /* FOOTER */
 
